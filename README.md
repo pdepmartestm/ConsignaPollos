@@ -37,12 +37,12 @@ Modelar los siguientes entrenadores:
 - **marioBros**: Toma al pollo y le agrega al nombre la frase “super mario ”. Le enseña a saltar y una nueva arte marcial que también se indica por parámetro, si es que el pollo no sabe hacerlo. Por ejemplo,  marioBros “judo” le podría enseñar a rocky judo. 
 
 1. Hacer que un entrenador entrene a un pollo.
-2. Dados dos entrenadores y un pollo, averiguar cual de los dos entrenadores lo entrena mejor, es decir, lo deja con más artes marciales aprendidas.
+2. Dados dos entrenadores y un pollo, averiguar cuál de los dos entrenadores lo entrena mejor, es decir, lo deja con más artes marciales aprendidas.
 
 ### Pollos Ninjas Espaciales 
-Pero estos pollos también son espaciales, ya que viven en muchos planetas donde son entrenados por distintos expertos en artes marciales. De los planetas se conoce su entrenador asignado y los pollos que se crían allí. Para esto tenemos:
+Pero estos pollos también son espaciales, ya que viven en muchos planetas donde son entrenados por distintos expertos en artes marciales. De los planetas se conoce su entrenador asignado y los pollos que habitan allí. Para esto tenemos:
 
-![](pollos2.jpg)
+![](pollos2.JPG)
 
 1. **elMejorPollo** un pollo es el mejor pollo de un planeta si es el que más artes marciales sabe.
 2. **esDebil** Un planeta es débil si ninguno de sus pollos adultos sabe más de 2 artes marciales o si al menos dos de sus pollos no saben ningún arte marcial.
@@ -56,11 +56,9 @@ Definir varios algunos pollos y planetas y hacer pruebas contemplando las varian
 ### Pollos Ninjas Espaciales Mutantes
 Muchos de nuestros pollos tienen además características especiales: son pollos mutantes.
 
-1. chickenNorris Es un pollo mutante que pesa 100 kilos, tiene 9000000 días y sabe TODOS los niveles de karate. "karate1", "karate2", "karate3", etc. (Sabe infinitas artes marciales) Mostrar ejemplos de invocación para entrenar a chickenNorris con diferentes entrenadores. ¿Con cuáles se lo puede entrenar y con cuáles no? Justificar. Mostrar ejemplos de invocación y respuesta con diferentes entrenadores.
+1. **chickenNorris** Es un pollo mutante que pesa 100 kilos, tiene 9000000 días y sabe TODOS los niveles de karate. "karate1", "karate2", "karate3", etc. (Sabe infinitas artes marciales) Mostrar ejemplos de invocación para entrenar a chickenNorris con diferentes entrenadores. ¿Con cuáles se lo puede entrenar y con cuáles no? Justificar. Mostrar ejemplos de invocación y respuesta con diferentes entrenadores.
+2. **Graduar al mejor pollo de un planeta**, mutándolo a entrenador: hacer una función que dado un planeta, permita obtener un nuevo entrenador, en base al pollo que más artes marciales sabe de ese planeta, con un comportamiento que consista es enseñar todas sus artes marciales.
+3. Defiir a **Marceñano** como la mutación de dos entrenadores: marcelito y arguiñano en un nuevo entrenador que combina sucesivamente el entrenamiento de ambos. 
 
-2. Graduar al mejor pollo de un planeta, mutándolo a entrenador: hacer una función que dado un planteta, permita obtener un nuevo entrenador, en base al pollo que más artes marciales sabe de ese planeta, con un comportamiento que consista es enseñar todas sus artes marciales.
-
-3. Defiir a Marceñano como la mutación de dos entrenadores: marcelito y arguiñano en un nuevo entrenador que combina sucesivamente el entrenamiento de ambos. 
-
-![](pollos3.jpg)
+![](pollos3.JPG)
 	
