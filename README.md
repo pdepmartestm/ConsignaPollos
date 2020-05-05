@@ -2,7 +2,7 @@
 
 ## Ejercicios integrador - Paradigma Funcional
 
-![](pollos1.jpg)
+![](pollos1.JPG)
 
 ### Pollos 
 Tenemos algunos pollos, de los cuales conocemos cómo se hacen llamar, los días que llevan vivos, su peso en gramos y una lista de aún no sabemos qué.
